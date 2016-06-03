@@ -178,6 +178,7 @@ main {
   top: 0;
 
   > .content {
+    position: relative;
     margin: 0 3.7rem;
     padding: 2rem 0;
 
@@ -186,6 +187,8 @@ main {
     }
 
     > footer {
+      position: absolute;
+      bottom: 0px;
       border-top: 2px solid $gray-light;
       color: lighten($gray-dark, 10%);
       display: block;
